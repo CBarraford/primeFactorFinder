@@ -19,8 +19,8 @@ def primes():
 		
 
 def primeFactors(x, factorsList):	
-	primeList	  = primes()
-	current		  = primeList.next()
+	primeList	= primes()
+	current		= primeList.next()
 	listLength	= len(factorsList)
 	
 	while current <= x/2:
@@ -35,8 +35,8 @@ def primeFactors(x, factorsList):
 		factorsList.append(x)
 
 
-root		  = 600851475143
-factors		= []
+root	= 600851475143
+factors	= []
 
 primeFactors(root, factors)
 		
